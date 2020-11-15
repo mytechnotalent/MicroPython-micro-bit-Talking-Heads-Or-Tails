@@ -11,7 +11,7 @@ This is a FUN talking Heads Or Tails game for the official BBC micro:bit V2 wher
 [micro:bit](COMING NOVEMBER 2020)
 
 ## STEP 1: Download & Install Mu IDE
-[Instructions](https://www.linkedin.com/pulse/python-kids-part-2-install-mu-ide-kevin-thomas/)
+[Instructions](https://www.linkedin.com/pulse/python-kids-part-2-install-mu-ide-kevin-thomas/)<br>
 *** PLEASE MAKE SURE YOU INSTALL THE ALPHA VERSION OF MU IN ORDER FOR THE MICRO:BIT V2 TO WORK PROPERLY ***
 
 ## STEP 2: Plug micro:bit Into Computer
