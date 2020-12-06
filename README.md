@@ -10,16 +10,27 @@ This is a FUN talking Heads Or Tails game for the official BBC micro:bit V2 wher
 ## Parts
 [micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)
 
-## STEP 1: Download & Install Mu IDE
-[Instructions](https://www.linkedin.com/pulse/python-kids-part-2-install-mu-ide-kevin-thomas/)<br>
-*** PLEASE MAKE SURE YOU INSTALL THE ALPHA VERSION OF MU IN ORDER FOR THE MICRO:BIT V2 TO WORK PROPERLY ***
+## STEP 1: Navigate To The FREE micro:bit Python Web Editor
+[micro:bit Python Web Editor](https://python.microbit.org/v/beta)<br><br>
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/STEP%201.png?raw=true)
 
-## STEP 2: Plug micro:bit Into Computer
-***PLUG IN USB CABLE TO COMPUTER AND DEVICE***
+## STEP 2: Plug micro:bit V2 Into Computer
+***PLUG IN USB CABLE TO COMPUTER AND DEVICE**
 
-## STEP 3: Open Mu IDE
+## STEP 3: Click CONNECT
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/STEP%203.png?raw=true)
 
-## STEP 4: Type Code Into Mu IDE
+## STEP 4: Click "BBC micro:bit CMSIS-DAP" & CONNECT
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/STEP%204.png?raw=true)
+
+## STEP 5: Highlight Sample Code - Select All
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/STEP%205.png?raw=true)
+
+## STEP 6: Click Backspace On Keyboard To Delete Sample Code
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/STEP%206.png?raw=true)
+
+## STEP 7: Copy Talking Heads Or Tails Python Code Template Into Python Web Editor
+# CODE
 ```python
 import gc
 import time
@@ -94,13 +105,18 @@ def play_game():
 play_game()
 ```
 
-## STEP 5: Click Save - main.py
+## STEP 8: Rename Script Name To talking_headsortails
 
-## STEP 6: Click Flash
+## STEP 9: Click Save
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/STEP%209.png?raw=true)
 
-## STEP 7: Click Reset Button (Back Side micro:bit)
+## STEP 10: Click Download Python Script
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/STEP%2010.png?raw=true)
 
-## STEP 8: Play Heads Or Tails!
+## STEP 11: Click Flash
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/STEP%2011.png?raw=true)
+
+## STEP 12: Play Heads Or Tails!
 When you plug in the micro:bit our little friend will introduce the game and give you some basic instructions.  If you would like to guess heads press the A button and if you would like to guess tails press the B button.  Once you play and you would like to play again simply press the reset button on the back of the micro:bit.
 
 ## Contributing
