@@ -1,4 +1,4 @@
-![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/MPMBTHOT.png?raw=true)
+![image](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails/blob/main/MicroPython-micro-bit%20Talking%20Heads%20Or%20Tails.png?raw=true)
 
 # MicroPython micro:bit
 # Talking Heads Or Tails
