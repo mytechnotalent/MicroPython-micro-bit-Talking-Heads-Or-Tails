@@ -9,23 +9,14 @@ from speech import say
 SPEED = 95
 
 
-def play_game():
-    """Play game 
-    
-    Play game is a function that allows you
+def play_game_proc():
+    """
+    Play game proc is a function that allows you
     play a fun heads or tails game as when you
     plug in the micro:bit the game will begin
     and our little friend will start speaking and
     after you play the game if you would like to
     play again press the reset button
-    
-    Parameters
-    ----------
-    None
-        
-    Returns
-    -------
-    None
     """
     gc.collect()
     result = randint(0, 1)
