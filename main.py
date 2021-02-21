@@ -9,54 +9,42 @@ from speech import say
 SPEED = 95
 
 
-def play_game_proc():
-    """
-    Play game proc is a function that allows you
-    play a fun heads or tails game as when you
-    plug in the micro:bit the game will begin
-    and our little friend will start speaking and
-    after you play the game if you would like to
-    play again press the reset button
-    """
-    gc.collect()
-    result = randint(0, 1)
-    display.show(Image.MEH)
-    say('Let us play heads or tails.', speed=SPEED)
-    time.sleep(1)
-    say('Press button Ayy if you want to guess heads.', speed=SPEED)
-    time.sleep(1)
-    say('Press button B if you want to guess tails.', speed=SPEED)
-    while True:
-        if button_a.is_pressed():
-            if result == 0:
-                display.show(Image.HAPPY)
-                say('Hooray!', speed=SPEED)
-                say('You guessed heads and you were right.', speed=SPEED)
-                say('You won!', speed=SPEED)
-                say('Press the RESET button to play again!', speed=SPEED)
-                break
-            else:
-                display.show(Image.SAD)
-                say('Sorry!', speed=SPEED)
-                say('When I flipped my little coin it came up tails.', speed=SPEED)
-                say('Better luck next time!', speed=SPEED)
-                say('Press the RESET button to play again!', speed=SPEED)
-                break
-        if button_b.is_pressed():
-            if result == 1:
-                display.show(Image.HAPPY)
-                say('Hooray!', speed=SPEED)
-                say('You guessed tails and you were right.', speed=SPEED)
-                say('You won!', speed=SPEED)
-                say('Press the RESET button to play again!', speed=SPEED)
-                break
-            else:
-                display.show(Image.SAD)
-                say('Sorry!', speed=SPEED)
-                say('When I flipped my little coin it came up heads.', speed=SPEED)
-                say('Better luck next time!', speed=SPEED)
-                say('Press the RESET button to play again!', speed=SPEED)
-                break
-
-
-play_game()
+gc.collect()
+result = randint(0, 1)
+display.show(Image.MEH)
+say('Let us play heads or tails.', speed=SPEED)
+time.sleep(1)
+say('Press button Ayy if you want to guess heads.', speed=SPEED)
+time.sleep(1)
+say('Press button B if you want to guess tails.', speed=SPEED)
+while True:
+    if button_a.is_pressed():
+        if result == 0:
+            display.show(Image.HAPPY)
+            say('Hooray!', speed=SPEED)
+            say('You guessed heads and you were right.', speed=SPEED)
+            say('You won!', speed=SPEED)
+            say('Press the RESET button to play again!', speed=SPEED)
+            break
+        else:
+            display.show(Image.SAD)
+            say('Sorry!', speed=SPEED)
+            say('When I flipped my little coin it came up tails.', speed=SPEED)
+            say('Better luck next time!', speed=SPEED)
+            say('Press the RESET button to play again!', speed=SPEED)
+            break
+    if button_b.is_pressed():
+        if result == 1:
+            display.show(Image.HAPPY)
+            say('Hooray!', speed=SPEED)
+            say('You guessed tails and you were right.', speed=SPEED)
+            say('You won!', speed=SPEED)
+            say('Press the RESET button to play again!', speed=SPEED)
+            break
+        else:
+            display.show(Image.SAD)
+            say('Sorry!', speed=SPEED)
+            say('When I flipped my little coin it came up heads.', speed=SPEED)
+            say('Better luck next time!', speed=SPEED)
+            say('Press the RESET button to play again!', speed=SPEED)
+            break
